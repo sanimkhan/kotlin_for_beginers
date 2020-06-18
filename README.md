@@ -57,5 +57,13 @@
           Ex: `constructor(name: String) : this(name, age) { return true }`  
           Here `this(name, age)` is Primary constructor call. 
     
+### Tutorial 6- Inheritance
+- Everything in Kotlin is by default final.
+- We need to use the keyword “open” in front of the class declaration to make it allowable to inherit.
+- When overriding a method, kotlin use keyword "override" before the method name. 
+- Cde Ex: `class BCD : ABC() { return }`
 ### Tutorial 6- Interface
-- Type: 
+- Kotlin doesn’t support multiple inheritances,.
+- But implementation of multiple interface is allowed.
+- Single interface Ex: `class Interface.InterfaceImp : InterfaceA {}`
+- Multiple interface Ex: `class Interface.InterfaceImp : InterfaceA, InterfaceB {}`

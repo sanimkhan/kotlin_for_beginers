@@ -1,13 +1,14 @@
 open class ABC {
     fun think() {
-        println("Hey!! i am thiking ")
+        println("Hey!! i am thinking")
     }
 
     open fun write () {
+        println("Hey!! I am parent method")
     }
 }
 
-class BCD : ABC() { // inheritence happend using default constructor
+class BCD : ABC() { // inheritance happened using default constructor
     override fun write () {
         println("Hey!! i am writing ")
     }
