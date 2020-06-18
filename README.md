@@ -1,7 +1,7 @@
 # Kotlin for beginners
 
-#### Tutorial 1- Hello world  
-#### Tutorial 2- Data types
+### Tutorial 1- Hello world  
+### Tutorial 2- Data types
 - Variable  
     - Variable can be declared with/without data types  
 `var boolean: Boolean = true`  
@@ -15,7 +15,7 @@
     - Ex: `if (i in 1..10)`
     - `if (i in 1..10)` is equivalent of `1 < = i && i < = 10`
 
-#### Tutorial 3- Control flow
+### Tutorial 3- Control flow
 - If else
 - When
     - Ex: `when (x) { 1 -> print("x is 1") }` 
@@ -32,7 +32,7 @@
                 `continue@myLabel`   
             `}`
 
-#### Tutorial 4- Class and Object
+### Tutorial 4- Class and Object
 - Class and object
     - New object can be created like `newClass()`
 - Nested class
@@ -46,3 +46,14 @@
     - The concept of creating an object of interface using runtime object reference is known as anonymous class.
     - Can create object of an interface.
 - ~~Type Aliases~~
+
+### Tutorial 5- Constructor
+- Type: 
+    - Primary
+        - 1 primary constructor per class
+    - Secondary
+        - 1 or more secondary constructor per class
+        - Secondary constructor must call primary constructor, if there is any.  
+          Ex: `constructor(name: String) : this(name, age) { return true }`  
+          Here `this(name, age)` is Primary constructor call. 
+    
