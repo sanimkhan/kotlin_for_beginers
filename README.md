@@ -57,3 +57,5 @@
           Ex: `constructor(name: String) : this(name, age) { return true }`  
           Here `this(name, age)` is Primary constructor call. 
     
+### Tutorial 6- Interface
+- Type: 
