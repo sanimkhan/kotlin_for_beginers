@@ -9,7 +9,7 @@ fun main(args: Array<String>) {
 class myClass {
 
     // property (data member)
-    private var name: String = "Class and Object"
+    private var name = "Class and Object"
 
     // member function
     fun printMe() {

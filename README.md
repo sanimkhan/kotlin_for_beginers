@@ -37,4 +37,12 @@
     - New object can be created like `newClass()`
 - Nested class
     - Nested class is always static.
-    - Can be called like this- `Outer.Nested().foo()`
+    - Methods can be called like this- `Outer.Nested().foo()`
+    - Nested class can not access its outer class members.
+- Inner class
+    - Methods can be called like this- `Outer().Inner().foo()`
+    - Inner class can access its outer class members.
+- ~~Anonymous Inner class~~
+    - The concept of creating an object of interface using runtime object reference is known as anonymous class.
+    - Can create object of an interface.
+- ~~Type Aliases~~
