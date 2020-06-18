@@ -31,3 +31,10 @@
                 `break@myLabel`  
                 `continue@myLabel`   
             `}`
+
+#### Tutorial 4- Class and Object
+- Class and object
+    - New object can be created like `newClass()`
+- Nested class
+    - Nested class is always static.
+    - Can be called like this- `Outer.Nested().foo()`
