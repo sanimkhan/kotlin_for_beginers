@@ -81,4 +81,16 @@
 - Public
     - Accessible from anywhere.
     - If no access modifier is declared, then default is public.
-     
+
+### Tutorial 9- Function Extension
+- Function extension
+    - Kotlin allows to define a method outside of the main class.
+    - Ex: 
+        - assume there is a class `Student`. 
+        - Student has methods `getTeacher()`, `getSubject()`.
+        - Student might need a method `getTuition()`.
+        - getTuition() can be declared outside of `Student` class.
+        - Ex: `fun Student.getTuition(a: Student): String {  return }`
+- Object extension
+    - Its like `static` in Java
+    - Basically its extending the object of the same class to use some of the member functions.
