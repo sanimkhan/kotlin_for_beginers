@@ -1,4 +1,4 @@
-package DataTypes
+package dataTypes
 
 fun main(args: Array<String>) {
 

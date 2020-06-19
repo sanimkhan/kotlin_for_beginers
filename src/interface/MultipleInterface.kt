@@ -1,4 +1,4 @@
-package Interface
+package `interface`
 
 fun main(args: Array<String>) {
     val obj = MultiInterfaceImp()

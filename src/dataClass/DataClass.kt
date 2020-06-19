@@ -1,4 +1,4 @@
-package DataClass
+package dataClass
 
 fun main(args: Array<String>) {
     val book: Book = Book("Kotlin", "TestPublisher", 5)

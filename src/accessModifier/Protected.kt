@@ -1,4 +1,4 @@
-package AccessModifier
+package accessModifier
 
 fun main(args: Array<String>) {
 

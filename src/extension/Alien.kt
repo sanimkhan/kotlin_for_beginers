@@ -1,4 +1,4 @@
-package Extension
+package extension
 
 class Alien {
     var skills: String = "null"

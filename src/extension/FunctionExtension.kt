@@ -1,4 +1,4 @@
-package Extension
+package extension
 
 fun main(args: Array<String>) {
     var a1 = Alien()

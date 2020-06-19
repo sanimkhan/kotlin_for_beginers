@@ -1,4 +1,4 @@
-package ClassAndObject
+package classAndObject
 
 
 fun main(args: Array<String>) {

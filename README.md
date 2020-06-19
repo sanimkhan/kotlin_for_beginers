@@ -63,11 +63,11 @@
 - When overriding a method, kotlin use keyword "override" before the method name. 
 - Cde Ex: `class BCD : ABC() { return }`  
 
-### Tutorial 7- Interface
+### Tutorial 7- interface
 - Kotlin doesn’t support multiple inheritances,.
 - But implementation of multiple interface is allowed.
-- Single interface Ex: `class Interface.InterfaceImp : InterfaceA {}`
-- Multiple interface Ex: `class Interface.InterfaceImp : InterfaceA, InterfaceB {}`
+- Single interface Ex: `class interface.InterfaceImp : InterfaceA {}`
+- Multiple interface Ex: `class interface.InterfaceImp : InterfaceA, InterfaceB {}`
 
 ### Tutorial 8- Access Modifier
 - Private
@@ -82,9 +82,9 @@
     - Accessible from anywhere.
     - If no access modifier is declared, then default is public.
 
-### Tutorial 9- Function Extension
+### Tutorial 9- Function extension
 - Function extension
-    - Kotlin allows to define a method outside of the DataClass.main class.
+    - Kotlin allows to define a method outside of the dataClass.main class.
     - Ex: 
         - assume there is a class `Student`. 
         - Student has methods `getTeacher()`, `getSubject()`.
