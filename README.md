@@ -98,3 +98,8 @@
 ### Tutorial 10- Data Class
 - Like Pojo in Java.
 - If a class is marked as Data class, it can can use some of the inbuilt function of that data class such as `toString()`,`hashCode()`.
+
+### Tutorial 11- Sealed class
+- A sealed class as name suggests only take the values from a limited set of values.
+- `when` requires `else` block.
+- 
