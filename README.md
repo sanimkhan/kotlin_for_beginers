@@ -84,7 +84,7 @@
 
 ### Tutorial 9- Function Extension
 - Function extension
-    - Kotlin allows to define a method outside of the main class.
+    - Kotlin allows to define a method outside of the DataClass.main class.
     - Ex: 
         - assume there is a class `Student`. 
         - Student has methods `getTeacher()`, `getSubject()`.
@@ -94,3 +94,7 @@
 - Object extension
     - Its like `static` in Java
     - Basically its extending the object of the same class to use some of the member functions.
+    
+### Tutorial 10- Data Class
+- Like Pojo in Java.
+- If a class is marked as Data class, it can can use some of the inbuilt function of that data class such as `toString()`,`hashCode()`.
