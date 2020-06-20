@@ -126,5 +126,7 @@
 - Inline: Passing lambda function to another function
     - Ex: `fun myFun(a :String, action: (String)->Unit) { return }`
 
-
+### Tutorial 14- Destructuring declarations
+- Calling multiple variable at once is called **Destructuring declarations**
+- Ex: `val (name, age) = person`
 
