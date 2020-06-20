@@ -55,7 +55,8 @@
         - 1 or more secondary constructor per class
         - Secondary constructor must call primary constructor, if there is any.  
           Ex: `constructor(name: String) : this(name, age) { return true }`  
-          Here `this(name, age)` is Primary constructor call. 
+          Here `this(name, age)` is Primary constructor call.
+        - `init{}` block gets caled as soon as object created from class.
     
 ### Tutorial 6- Inheritance
 - Everything in Kotlin is by default final.
@@ -63,7 +64,7 @@
 - When overriding a method, kotlin use keyword "override" before the method name. 
 - Cde Ex: `class BCD : ABC() { return }`  
 
-### Tutorial 7- interface
+### Tutorial 7- Interface
 - Kotlin doesn’t support multiple inheritances,.
 - But implementation of multiple interface is allowed.
 - Single interface Ex: `class interface.InterfaceImp : InterfaceA {}`
@@ -82,7 +83,7 @@
     - Accessible from anywhere.
     - If no access modifier is declared, then default is public.
 
-### Tutorial 9- Function extension
+### Tutorial 9- Extension
 - Function extension
     - Kotlin allows to define a method outside of the dataClass.main class.
     - Ex: 
@@ -102,4 +103,17 @@
 ### Tutorial 11- Sealed class
 - A sealed class as name suggests only take the values from a limited set of values.
 - `when` requires `else` block.
-- 
+
+### Tutorial 12- Generics
+- Basic generic
+    - Ex: `class Cage<T>(var animal: T) {}`
+- Generic with defined class hierarchy
+    - Ex: `class Cage<T : Animal>(var animal: T) {}`
+- Variance: `cageDog<Dog>` is not equal to `cageDog<Cat>`
+- Declaration-site Variance
+    - Covariance
+        - When we want to assign the generic type to any of its super type
+        - Ex: `class covariantExample<out T>(input:T) { return }` 
+    - Contravariance
+            - When we want to assign the generic type to any of its sub type
+            - Ex: `class contraVariantExample<in T>(input:T) { return }`

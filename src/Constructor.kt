@@ -15,6 +15,11 @@ fun main(args: Array<String>) {
 
 
 class Person(val firstName: String, var age: Int) {
+
+    init {
+        println("Hi, this is welcome message.")
+    }
+
     var message = ""
 
     constructor(name: String, age: Int, message: String) : this(name, age) {
