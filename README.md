@@ -117,3 +117,14 @@
     - Contravariance
             - When we want to assign the generic type to any of its sub type
             - Ex: `class contraVariantExample<in T>(input:T) { return }`
+
+### Tutorial 13- Functions
+- Function
+    - Ex: `fun MyFunction(x: String): String { return }`
+- Lambda
+    - Ex: `val mylambda :(String)->Unit  = {s:String->print(s)}`
+- Inline: Passing lambda function to another function
+    - Ex: `fun myFun(a :String, action: (String)->Unit) { return }`
+
+
+
