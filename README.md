@@ -130,3 +130,5 @@
 - Calling multiple variable at once is called **Destructuring declarations**
 - Ex: `val (name, age) = person`
 
+### Tutorial 15- Exception handling
+
